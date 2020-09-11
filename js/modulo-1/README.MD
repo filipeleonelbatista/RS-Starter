@@ -31,7 +31,7 @@ Retorne o seguinte conteúdo:
 O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
 nº 1293.
 ```
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/modernfunkboss/RS-Starter/blob/master/js/modulo-1/Desafio01-01.html)
 
 <hr>
 
@@ -49,7 +49,7 @@ pares(32, 321);
 
 ```
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/modernfunkboss/RS-Starter/blob/master/js/modulo-1/Desafio01-02.html)
 
 <hr>
 
@@ -71,7 +71,7 @@ temHabilidade(skills); // true ou false
 
 Dica: para verificar se um vetor contém um valor, utilize o método [indexOf](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/modernfunkboss/RS-Starter/blob/master/js/modulo-1/Desafio01-03.html)
 
 <hr>
 
@@ -93,7 +93,7 @@ experiencia(anosEstudo);
 // De 7 acima: Jedi Master
 ```
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/modernfunkboss/RS-Starter/blob/master/js/modulo-1/Desafio01-04.html)
 
 <hr>
 
@@ -125,7 +125,7 @@ O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
 Dica: Para percorrer um vetor você deve utilizar a sintaxe [for...of](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of) e para unir valores de um array
 com um separador utilize o [join](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join).
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/modernfunkboss/RS-Starter/blob/master/js/modulo-1/Desafio01-05.html)
 
 <hr>
 
