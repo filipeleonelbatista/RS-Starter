@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - JS - Starter</title>
+</head>
+
+<body>
+    <div>
+        <script>
+            function pares(x, y) {
+                var value = x;
+                var valueArray = []
+
+                for (; value <= y; value++) {
+                    if ((value % 2) == 0) {
+                        valueArray.push(value);
+                    }
+                }
+
+                document.getElementById("pares").innerHTML = `Os numeros pares entre ${x} e ${y} são: <br>`
+
+                valueArray.forEach(element => {
+                    document.getElementById("pares").innerHTML += " " + element + ",";
+                });
+            }
+
+
+            window.onload = function() {
+
+                pares(32, 321);
+            }
+        </script>
+        <p id="pares"></p>
+    </div>
+</body>
+
+</html>

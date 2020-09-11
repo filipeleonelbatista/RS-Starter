@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - JS - Starter</title>
+</head>
+
+<body>
+    <div>
+        <script>
+            function experiencia(anos) {
+                if ((anos >= 0) && (anos < 1)) {
+                    return "Iniciante";
+                }
+                if ((anos >= 1) && (anos < 3)) {
+                    return "Intermediário";
+                }
+                if ((anos >= 3) && (anos < 6)) {
+                    return "Avançado";
+                }
+                if (anos >= 7) {
+                    return "Jedi Master";
+                }
+
+            }
+
+
+            window.onload = function() {
+                var anosEstudo = 7;
+                document.getElementById("result").innerHTML = experiencia(anosEstudo);
+            }
+        </script>
+        <p id="result"></p>
+    </div>
+</body>
+
+</html>

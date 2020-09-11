@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - JS - Starter</title>
+</head>
+
+<body>
+    <div>
+        <script>
+            function temHabilidade(skills) {
+                if (skills.indexOf("Javascript") != -1) {
+                    return true;
+                }
+                return false;
+            }
+
+            window.onload = function() {
+                var skills = ["Javascript", "ReactJS", "React Native"];
+                document.getElementById("result").innerHTML = temHabilidade(skills);
+            }
+        </script>
+        <p id="result"></p>
+    </div>
+</body>
+
+</html>

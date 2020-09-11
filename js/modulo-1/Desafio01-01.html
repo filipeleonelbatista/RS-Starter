@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - JS - Starter</title>
+</head>
+
+<body>
+    <div>
+        <script>
+            function show(endereco) {
+                const x = document.getElementById("endereco")
+                x.innerHTML = `O usuário mora em ${endereco.cidade} / ${endereco.uf}, no bairro ${endereco.bairro}, na rua "${endereco.rua}" com nº ${endereco.numero}.`;
+            }
+
+
+            window.onload = function() {
+                var endereco = {
+                    rua: "Rua dos pinheiros",
+                    numero: 1293,
+                    bairro: "Centro",
+                    cidade: "São Paulo",
+                    uf: "SP"
+                };
+
+                show(endereco);
+            }
+        </script>
+        <p id="endereco"></p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - JS - Starter</title>
+</head>
+
+<body>
+    <div>
+        <script>
+            function show(usuarios) {
+                const x = document.getElementById("result");
+                for (var user of usuarios) {
+                    x.innerHTML += `<br>O ${user.nome} possui as habilidades: ${user.habilidades.join(', ')}`
+                }
+            }
+
+
+            window.onload = function() {
+                var usuarios = [{
+                    nome: "Diego",
+                    habilidades: ["Javascript", "ReactJS", "Redux"]
+                }, {
+                    nome: "Gabriel",
+                    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+                }];
+
+                show(usuarios);
+            }
+        </script>
+        <p id="result"></p>
+    </div>
+</body>
+
+</html>
