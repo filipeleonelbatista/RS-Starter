@@ -19,7 +19,7 @@ Decidi dividir este repositório em algumas partes que podem ser acessadas atrav
 
 <h1>Módulos</h1>
 <p align="center">
-<a href=""><img src="./assets/js.jpg"></a>
+<a href="https://github.com/modernfunkboss/RS-Starter/tree/master/js"><img src="./assets/js.jpg"></a>
 <a href="#"><img src="./assets/ES6.jpg"></a>
 <a href="#"><img src="./assets/Node.jpg"></a><br>
 <a href="#"><img src="./assets/ReactJS.jpg"></a>
