@@ -16,9 +16,9 @@ A baixo segue a relação dos desafios por etapas dentro deste curso.
 
 <h1>Listas</h1>
 <p align="center">
-<a href=""><img src="./assets/desafio1.png"></a><br>
-<a href=""><img src="./assets/desafio2.png"></a><br>
-<a href=""><img src="./assets/desafio3.png"></a><br>
+<a href="https://github.com/modernfunkboss/RS-Starter/tree/master/js/modulo-1"><img src="./assets/desafio1.png"></a><br>
+<a href="https://github.com/modernfunkboss/RS-Starter/tree/master/js/modulo-2"><img src="./assets/desafio2.png"></a><br>
+<a href="https://github.com/modernfunkboss/RS-Starter/tree/master/js/modulo-4"><img src="./assets/desafio3.png"></a><br>
 </p>
 
 
