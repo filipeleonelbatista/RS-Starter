@@ -17,7 +17,7 @@ Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de u
 vermelho com 100px de altura e largura. Sempre que o botão for clicado um novo quadrado deve
 aparecer na tela.
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/filipeleonelbatista/RS-Starter/blob/master/js/modulo-2/Desafio-1.html)
 
 ---
 
@@ -38,7 +38,7 @@ function getRandomColor() {
 var newColor = getRandomColor(); // #E943F0
 ```
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/filipeleonelbatista/RS-Starter/blob/master/js/modulo-2/Desafio-2.html)
 
 ---
 
@@ -56,7 +56,7 @@ Preencha uma lista `<ul>` no HTML com os itens da seguinte forma:
 <li>Lucas</li>
 </ul>
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/filipeleonelbatista/RS-Starter/blob/master/js/modulo-2/Desafio-3.html)
 
 ---
 
@@ -72,7 +72,7 @@ Ao clicar no botão, a função `adicionar()` deve ser disparada adicionando um 
 nomes baseado no nome preenchido no input e renderizando o novo item em tela juntos aos
 demais itens anteriores. Além disso, o conteúdo do input deve ser apagado após o clique.
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/filipeleonelbatista/RS-Starter/blob/master/js/modulo-2/Desafio-4.html)
 
 ---
 
