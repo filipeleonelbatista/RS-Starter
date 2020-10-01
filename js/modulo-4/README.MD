@@ -30,7 +30,7 @@ checaIdade(20)
  });
 ```
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/filipeleonelbatista/RS-Starter/blob/master/js/modulo-4/Desafio-1.html)
 
 ---
 
@@ -63,7 +63,7 @@ Depois de preencher o input e adicionar, a seguinte lista deve aparecer abaixo:
 </ul>
 ```
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/filipeleonelbatista/RS-Starter/blob/master/js/modulo-4/Desafio-2.html)
 
 ---
 
@@ -80,7 +80,7 @@ Além disso, adicione uma mensagem de erro em tela caso o usuário no Github nã
 
 Dica: Quando o usuário não existe, a requisição irá cair no `.catch` com código de *erro 404*
 
-[Ver o resultado](http://github.com)
+[Ver o resultado](https://github.com/filipeleonelbatista/RS-Starter/blob/master/js/modulo-4/Desafio-3.html)
 
 ---
 
