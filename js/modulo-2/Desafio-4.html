@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 4</title>
+</head>
+
+<body>
+    <script>
+
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+
+        window.onload = function(){
+            x = document.getElementById("corpo");
+
+            x.innerHTML = "<ul>";
+            nomes.forEach(item => {
+                x.innerHTML += `<li>${item}</li>` ;
+            });
+            x.innerHTML += "</ul>";
+
+        }
+
+        function adicionar(){
+            let input = document.getElementsByName("nome");
+
+            console.log(input);
+            if((input[0].value === undefined)||(input[0].value === "")) return;
+
+            nomes.push(input[0].value);
+
+            input.value = "";
+
+            x = document.getElementById("corpo");
+
+            x.innerHTML = "<ul>";
+            nomes.forEach(item => {
+                x.innerHTML += `<li>${item}</li>` ;
+            });
+            x.innerHTML += "</ul>";
+        }
+
+    </script>
+    <div class="container" id="corpo">
+
+    </div>
+
+    <input type="text" name="nome">
+    <button onClick="adicionar()">Adicionar</button>
+
+</body>
+
+</html>

@@ -47,7 +47,7 @@ Basta alterar "diego3g" pelo nome do usuário.
 
 ``` html
 <input type="text" name="user">
-<button onclick="">Adicionar</button>
+<button onclick="">Pesquisar</button>
 
 ```
 

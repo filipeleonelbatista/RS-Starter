@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+</head>
+<body>
+    <script>
+        function addSquare(){
+            content = document.getElementById("corpo");
+
+            content.innerHTML += "<div style='width:100px; height: 100px; background-color: red; margin: 2px;'></div>";
+        }
+    </script>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+    <button onclick="addSquare()">Adicionar quadrado</button>
+    <div class="container" id="corpo">
+
+    </div>
+</body>
+</html>

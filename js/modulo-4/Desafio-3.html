@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function buscarRepos(username) {
+            return new Promise(function (resolve, reject) {
+
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', `https://api.github.com/users/${username}/repos`);
+                xhr.send(null);
+
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200) {
+                            resolve(JSON.parse(xhr.responseText));
+                        } else {
+                            reject("Erro");
+                        }
+                    }
+                }
+            });
+        }
+
+        function pesquisaUsuario() {
+            username = document.getElementsByName("user");
+            const nome = username[0].value;
+            y = document.getElementById("container");
+            y.innerHTML = "<ul><li>Carregando...</li><ul>";
+
+            buscarRepos(username[0].value)
+                .then(function (response) {
+                    x = document.getElementById("container");
+
+                    x.innerHTML = `<h1>Repositórios de ${nome}`;
+                    x.innerHTML += "<ul>";
+                    response.forEach(item => {
+                        x.innerHTML += `<li>${item.name}</li>`;
+                    });
+                    x.innerHTML += "</ul>";
+                    console.log(response);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+            username[0].value = "";
+        }
+    </script>
+    <title>Desafio 3</title>
+</head>
+
+<body>
+    <input type="text" name="user">
+    <button onclick="pesquisaUsuario()">Pesquisar</button>
+    <div id="container"></div>
+
+</body>
+
+</html>

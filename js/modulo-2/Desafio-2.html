@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+</head>
+
+<body>
+    <script>
+        function getRandomColor() {
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+        function setHoverColor(element){
+            console.log(this);
+            element.style.backgroundColor =  getRandomColor();
+
+        }
+        function addSquare() {
+            content = document.getElementById("corpo");
+
+            content.innerHTML += "<div onmouseenter='setHoverColor(this)' style='width:100px; height: 100px; background-color: red; margin: 2px;'></div>";
+        }
+    </script>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+    <button onclick="addSquare()">Adicionar quadrado</button>
+    <div class="container" id="corpo">
+
+    </div>
+</body>
+
+</html>
